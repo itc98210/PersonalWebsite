@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABC (XXX老師) | AI 與 Python 大數據工程師</title>
+    <!-- 引入自訂 CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome (用於圖示) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts (現代化字體) -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- 導覽列 (Navbar) -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">ABC 老師</a>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">首頁</a></li>
+                <li><a href="#about">關於我</a></li>
+                <li><a href="#timeline">重要經歷</a></li>
+                <li><a href="#contact">聯絡我</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- 1. 主視覺區 (Hero Section) -->
+    <section id="hero" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content slide-in-left">
+                <h1>你好，我是 <span class="highlight">ABC</span> (XXX老師)</h1>
+                <h2 class="typing-text">AI 與 Python 大數據工程師</h2>
+                <p class="bio">
+                    致力於人工智慧與大數據技術的教育推廣。透過深入淺出的教學方式，帶領學生探索科技的無限可能。
+                </p>
+                <div class="social-links">
+                    <a href="mailto:s810802@gmail.com" title="Email" target="_blank"><i class="fas fa-envelope"></i></a>
+                    <a href="#" title="YouTube" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a href="#" title="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                </div>
+                <a href="#contact" class="btn btn-primary">與我聯絡</a>
+            </div>
+            <div class="hero-image fade-in">
+                <!-- 使用 UI Avatars 產生帶有科技感配色與首字母的質感佔位圖 -->
+                <img src="https://ui-avatars.com/api/?name=ABC&background=e0f2f1&color=00796b&size=400&font-size=0.33&bold=true" alt="ABC 老師的頭像" class="avatar">
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. 關於我 (About Me) -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">專業領域與教學特色</h2>
+            <div class="cards-container">
+                <div class="card fade-in-up" style="animation-delay: 0.1s;">
+                    <i class="fas fa-robot card-icon"></i>
+                    <h3>人工智慧 (AI)</h3>
+                    <p>深入機器學習與深度學習領域，掌握最新 AI 發展趨勢與實務應用。</p>
+                </div>
+                <div class="card fade-in-up" style="animation-delay: 0.2s;">
+                    <i class="fas fa-database card-icon"></i>
+                    <h3>大數據分析</h3>
+                    <p>專精於資料探勘、數據清理與視覺化呈現，從海量數據中淬取商業價值。</p>
+                </div>
+                <div class="card fade-in-up" style="animation-delay: 0.3s;">
+                    <i class="fab fa-python card-icon"></i>
+                    <h3>Python 程式開發</h3>
+                    <p>豐富的 Python 開發與教學經驗，引導學員從零基礎到獨立開發。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. 經歷時間軸 (Timeline) -->
+    <section id="timeline" class="timeline-section bg-light-green">
+        <div class="container">
+            <h2 class="section-title fade-in-up">重要經歷</h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2018</div>
+                        <h3 class="timeline-title">「創新 100 教師」</h3>
+                        <p class="timeline-desc">榮獲教育界指標性獎項，肯定在科技教育與創新教學上的貢獻與影響力。</p>
+                    </div>
+                </div>
+                <!-- 預留未來擴充項目 -->
+                <div class="timeline-item fade-in-up">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-year">2015</div>
+                        <h3 class="timeline-title">投入大數據工程領域</h3>
+                        <p class="timeline-desc">參與多項企業級數據分析專案，累積深厚的實務經驗。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. 聯絡表單 (Contact) -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title fade-in-up">聯絡我</h2>
+            <div class="contact-container fade-in-up">
+                <div class="contact-info">
+                    <h3>讓我們保持聯繫！</h3>
+                    <p>對我的教學內容感興趣，或是尋求專案合作？歡迎填寫表單或直接透過 Email 聯絡我。</p>
+                    <ul class="info-list">
+                        <li><i class="fas fa-envelope"></i> s810802@gmail.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 台灣 (Taiwan)</li>
+                    </ul>
+                </div>
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">姓名 <span class="required">*</span></label>
+                        <input type="text" id="name" name="name" placeholder="請輸入您的姓名" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email <span class="required">*</span></label>
+                        <input type="email" id="email" name="email" placeholder="請輸入您的電子郵件" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">主旨 <span class="required">*</span></label>
+                        <input type="text" id="subject" name="subject" placeholder="請輸入訊息主旨" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">訊息內容 <span class="required">*</span></label>
+                        <textarea id="message" name="message" rows="5" placeholder="請輸入您想說的話..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">送出訊息</button>
+                    <div id="formStatus" class="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 頁尾 (Footer) -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 ABC (XXX老師). All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- 引入自訂 JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
